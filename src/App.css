@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans", cursive;
+}
+
+body {
+  background-color: #efefef;
+}
+
+
+.Container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Darkmode-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Darkmode-btn button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  background-color: #15616d;
+}
+
+.Darkmode-btn button:hover {
+  background-color: #104c56;
+}
+
+h1 {
+  text-align: center;
+  color: #15616d;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Todo-input {
+  flex: 1;
+  padding: 13px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f7f7f8;
+  font-weight: 600;
+  width: 100%; 
+  height: 5.5vh; 
+}
+
+.Todo-input:focus {
+  outline: none;
+  border: 2px solid #719ece; 
+  width: 100%; 
+  height: 5.5vh 
+}
+
+.Add-btn {
+  background-color: #15616d;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Add-btn:hover {
+  background-color: #104c56;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  flex: 1;
+  word-break: break-word;
+  margin-right: 1rem;
+}
+
+li button {
+  background-color: #15616d;
+  border: none;
+  border-radius: 50%;
+  padding: 4px 8px;
+  cursor: pointer;
+  margin: 0.25rem;
+  font-size: 1.3em;
+}
+
+li button:hover,
+i:hover {
+  scale: 1.2;
+  background-color: #104c56;
+}
+
+.Modal {
+  position: fixed;
+  top: 25%;
+  left: 40%;
+  width: 20vw;
+  height: 20%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.Modal.Show {
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal .Button-wrapper button {
+  margin: 0.25rem;
+  border: none;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #15616d;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Modal .Button-wrapper button:hover {
+  background-color: #104c56;
+}
+
+.Dark-Body {
+  background-color: #1e1e1e; /* Change to your preferred dark mode background color */
+}
+
+
+.Dark-Mode {
+  background-color: #333;
+}
+
+li.Dark-Mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.Todo-input.Dark-Mode {
+  background-color: #ffffff;
+}
+
+.Todo-input.Dark-Mode:focus {
+  border: 2px solid #15616d;
+}
+
+.Container h1.Dark-Mode {
+  color: white;
+}
