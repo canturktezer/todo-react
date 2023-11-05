@@ -12,6 +12,11 @@ The To-Do List App is a simple web application that allows you to create and man
 
 4. Dark mode toggle: Click the Dark mode toggle for a more comfortable viewing experience.
 
+### Technologies Used
+- React
+- HTML, CSS
+
+
 ### Usage
 - To add a new task, enter the task description in the input field and click the "Add" button.
 
