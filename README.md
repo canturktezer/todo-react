@@ -30,7 +30,7 @@ To run this application locally, follow these steps:
 5. Open your browser and access the application at http://localhost:3000.
 
 
-### Usage
+## Usage
 - To add a new task, enter the task description in the input field and click the "Add" button.
 
 - To mark a task as completed, click the checkmark button next to the task.
