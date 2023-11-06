@@ -6,19 +6,21 @@ The To-Do List App is a simple web application that allows you to create and man
 
 ### Features:
 
-1. Add a new task: Enter a task description in the input field and click the "Add" button or press Enter to add the task to the list.
+- Add a new task: Enter a task description in the input field and click the "Add" button to add the task to the list.
 
-2. Mark task as completed: Click on a task to toggle its completion status. Completed tasks are displayed with a strikethrough effect.
+- Mark task as completed: Click on a task to toggle its completion status. Completed tasks are displayed with a strikethrough effect.
 
-3. Remove task: Click the "Remove" button next to a task to remove it from the list. A confirmation modal will be displayed before the task is permanently deleted.
+- Remove task: Click the "Remove" button next to a task to remove it from the list. A confirmation modal will be displayed before the task is permanently deleted.
 
-4. Dark mode toggle: Click the Dark mode toggle for a more comfortable viewing experience.
+- Dark mode toggle: Click the Dark mode toggle for a more comfortable viewing experience.
 
 ### Technologies Used
 - React
 - HTML, CSS
 
 ## Getting Started
+
+### Installation
 To run this application locally, follow these steps:
 
 1. Clone this repository to your local machine: https://github.com/canturktezer/todo-react.git
