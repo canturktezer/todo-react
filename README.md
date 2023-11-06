@@ -16,6 +16,15 @@ The To-Do List App is a simple web application that allows you to create and man
 - React
 - HTML, CSS
 
+## Getting Started
+To run this application locally, follow these steps:
+
+1. Clone this repository to your local machine: https://github.com/canturktezer/todo-react.git
+2. Navigate to the project directory: cd todo-react
+3. Install the required dependencies: npm install
+4. Start the development server: npm start
+5. Open your browser and access the application at http://localhost:3000.
+
 
 ### Usage
 - To add a new task, enter the task description in the input field and click the "Add" button.
